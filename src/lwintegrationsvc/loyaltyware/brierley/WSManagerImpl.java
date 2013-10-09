@@ -3,6 +3,7 @@ package lwintegrationsvc.loyaltyware.brierley;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -10,7 +11,6 @@ import lwintegrationsvc.loyaltyware.brierley.exceptions.OperationFailureExceptio
 
 public class WSManagerImpl implements WSManager{
 
-	private static final String ARVATO8_EMAIL = "arvato8@arvato.com";
 	private Properties prop = null;
 	
 	public WSManagerImpl(){
@@ -106,11 +106,20 @@ public class WSManagerImpl implements WSManager{
 	private String replaceEmailAndCardType(String responsePayload, String email, String cardType) {
 		responsePayload = responsePayload.replaceAll("EMAIL_TO_CHANGE", email);
 		responsePayload = responsePayload.replaceAll("CARDTYPE_TO_CHANGE", cardType);
-		if (email.equals(ARVATO8_EMAIL)){
+		if (email.equals("arvato8@arvato.com")){
 			responsePayload = responsePayload.replaceAll("STATUS_TO_CHANGE", "InActive");
 		} else {
 			responsePayload = responsePayload.replaceAll("STATUS_TO_CHANGE", "Active");
 		}
 		return responsePayload;
+	}
+
+	public void anotherMethod(int value){
+		Integer anInt = new Integer(value);
+		System.out.println(anInt);
+
+		String query = "select u.name, u.ci from ";
+		query += "users u";
+		System.out.println(query);
 	}
 }
