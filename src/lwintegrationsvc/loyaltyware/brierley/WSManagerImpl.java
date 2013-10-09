@@ -114,12 +114,14 @@ public class WSManagerImpl implements WSManager{
 		return responsePayload;
 	}
 
+	/**
+	 * 
+	 * @param value
+	 */
 	public void anotherMethod(int value){
 		Integer anInt = new Integer(value);
-		System.out.println(anInt);
 
 		String query = "select u.name, u.ci from ";
 		query += "users u";
-		System.out.println(query);
 	}
 }
