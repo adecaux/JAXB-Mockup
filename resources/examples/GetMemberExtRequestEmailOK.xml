@@ -1,0 +1,18 @@
+<GetMembersExtInParms><Parm Name="input" Type="GetMembersExtIn" IsArray="false" IsRequired="false">
+  <Parm Name="MemberSearchParms" Type="Struct" IsArray="true" IsRequired="true">
+    <Parm Name="MemberSearchParms" Type="Struct" IsArray="false" IsRequired="true">
+      <Parm Name="ParmName" Type="String" IsArray="false" IsRequired="true">
+        <Value>Email</Value>
+      </Parm>
+      <Parm Name="ParmValue" Type="String" IsArray="false" IsRequired="true">
+        <Value>L909201327@MM.COM</Value>
+      </Parm>
+    </Parm>
+  </Parm>
+  <Parm Name="StartIndex" Type="Integer" IsArray="false" IsRequired="false">
+    <Value>0</Value>
+  </Parm>
+  <Parm Name="BatchSize" Type="Integer" IsArray="false" IsRequired="false">
+    <Value>10</Value>
+  </Parm>
+</Parm></GetMembersExtInParms>

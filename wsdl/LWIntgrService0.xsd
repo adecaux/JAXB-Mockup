@@ -1,0 +1,32 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:tns="urn:Brierley.LoyaltyWare.LWIntegrationSvc"
+	elementFormDefault="qualified" targetNamespace="urn:Brierley.LoyaltyWare.LWIntegrationSvc">
+	<xs:import
+		schemaLocation="file:/home/adrian/Arvato/JAXB-Mock/wsdl/LWIntgrService2.xsd"
+		namespace="http://schemas.datacontract.org/2004/07/Brierley.LoyaltyWare.LWIntegrationSvc" />
+	<xs:element name="Execute">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" name="operationName" nillable="true"
+					type="xs:string" />
+				<xs:element minOccurs="0" name="source" nillable="true"
+					type="xs:string" />
+				<xs:element minOccurs="0" name="sourceEnv" nillable="true"
+					type="xs:string" />
+				<xs:element minOccurs="0" name="externalId" nillable="true"
+					type="xs:string" />
+				<xs:element minOccurs="0" name="payload" nillable="true"
+					type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ExecuteResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element
+					xmlns:q1="http://schemas.datacontract.org/2004/07/Brierley.LoyaltyWare.LWIntegrationSvc"
+					minOccurs="0" name="ExecuteResult" nillable="true" type="q1:LWAPIResponse" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

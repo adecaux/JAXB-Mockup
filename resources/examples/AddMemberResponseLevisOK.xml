@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<AddMemberOutParms xmlns="http://www.brierley.com/StandardApiPayload">
+	<Parm Name="member" Type="Member" IsRequired="false">
+		<AttributeSets xmlns="http://Levis.MemberProcessing.Schemas.Levis">
+			<Member IpCode="266" MemberCreateDate="2013-09-10T11:26:51.000"
+				MemberCloseDate="2113-09-06T00:00:00.000" BirthDate="2013-09-06T00:00:00.000"
+				FirstName="M" LastName="M" MiddleName="M" NamePrefix="PF"
+				NameSuffix="SF" AlternateId="" Username="" PrimaryEmailAddress="L9072013802@MM.COM"
+				PrimaryPhoneNumber="" PrimaryPostalCode="5656" LastActivityDate="2013-09-06T00:00:00.000"
+				IsEmployee="True" ChangedBy="LWIntegrationService" MemberStatus="Active"
+				xmlns="" pointsearned="0">
+				<LEVISDETAILS EMAILADRESSMAILABLE="True"
+					ADDRESSLINEONE="A1" ADDRESSLINETWO="A2" ADDRESSLINETHREE="A3" CITY="Plano"
+					STATEORPROVINCE="TX" ZIPORPOSTALCODE="75024" COUNTRY="UK" PHONE="L9072013802"
+					MEMBERSOURCE="Levis.com" LANGUAGEPREFERENCE="English" FIRSTNAME="L9072013802"
+					LASTNAME="L9072013802" MIDDLENAME="L9072013802" TCCONSENT="True"
+					ECOMM="True" TCDATE="2013-09-06T00:00:00.000" />
+				<VirtualCard VcKey="306" IpCode="266" LoyaltyIdNumber="L9072013802"
+					DateIssued="2013-09-06T00:00:00.000" DateRegistered="2013-09-06T00:00:00.000"
+					IsPrimary="true" Status="Active" CardType="1" />
+			</Member>
+		</AttributeSets>
+	</Parm>
+</AddMemberOutParms>

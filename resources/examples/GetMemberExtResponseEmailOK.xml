@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<GetMembersExtOutParms xmlns="http://www.brierley.com/StandardApiPayload">
+	<Parm Name="GetMembersExtOut" Type="GetMembersExtOut" IsArray="false">
+		<Parm Name="Count" Type="Integer" IsRequired="true">
+			<Value>1</Value>
+		</Parm>
+		<Parm Name="member" Type="Member" IsRequired="false" IsArray="true">
+			<AttributeSets xmlns="http://Levis.MemberProcessing.Schemas.Levis">
+				<Member IpCode="165" MemberCreateDate="2013-09-09T13:37:42.000"
+					MemberCloseDate="2113-09-09T00:00:00.000" BirthDate="2013-09-09T00:00:00.000"
+					FirstName="Malati" LastName="Manduva" MiddleName="MN" NamePrefix="Nprifx"
+					NameSuffix="Nsufx" AlternateId="" Username="LD909201327"
+					PrimaryEmailAddress="L909201327@MM.COM" PrimaryPhoneNumber="L909201327"
+					PrimaryPostalCode="75056" LastActivityDate="2013-09-09T00:00:00.000"
+					IsEmployee="False" ChangedBy="LWIntegrationService" MemberStatus="Active"
+					xmlns="">
+					<LEVISDETAILS EMAILADRESSMAILABLE="True"
+						ADDRESSLINEONE="L1" ADDRESSLINETWO="L2" ADDRESSLINETHREE="L3"
+						CITY="LPlano" STATEORPROVINCE="LTX" ZIPORPOSTALCODE="75024"
+						COUNTRY="GB" PHONE="L909201327" MEMBERSOURCE="Levis.com"
+						FIRSTNAME="L909201327" LASTNAME="L909201327" MIDDLENAME="L909201327"
+						TCCONSENT="True" HYBRISID="909201327" ECOMM="True"
+						TCDATE="2013-09-09T00:00:00.000" />
+					<DOCKERSDETAILS EMAILADRESSMAILABLE="True"
+						ADDRESSLINEONE="LD1" ADDRESSLINETWO="LD2" ADDRESSLINETHREE="LD3"
+						CITY="LDPlano" STATEORPROVINCE="LDTX" ZIPORPOSTALCODE="75024"
+						COUNTRY="UK" PHONE="LD909201327" MEMBERSOURCE="Dockers.com"
+						FIRSTNAME="LD909201327" LASTNAME="LD909201327" MIDDLENAME="LD909201327"
+						TCCONSENT="True" HYBRISID="909201327" ECOMM="True"
+						TCDATE="2013-09-09T00:00:00.000" />
+					<VirtualCard VcKey="187" IpCode="165" LoyaltyIdNumber="LD909201327"
+						DateIssued="2013-09-09T14:09:51.000" DateRegistered="2013-09-09T14:09:51.000"
+						IsPrimary="true" Status="Active" CardType="2" />
+					<VirtualCard VcKey="165" IpCode="165" LoyaltyIdNumber="L909201327"
+						DateIssued="2013-09-09T13:37:42.000" DateRegistered="2013-09-09T13:37:42.000"
+						IsPrimary="true" Status="Active" CardType="1" />
+				</Member>
+			</AttributeSets>
+		</Parm>
+	</Parm>
+</GetMembersExtOutParms>

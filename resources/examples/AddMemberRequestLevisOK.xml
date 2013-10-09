@@ -1,0 +1,23 @@
+<AddMemberInParms>
+	<Parm Name="member" Type="Member" IsArray="false" IsRequired="false">
+		<AttributeSets xmlns="http://Levis.MemberProcessing.Schemas.Levis">
+			<Member IpCode="0" MemberCreateDate="2013-09-06T00:00:00.000"
+				MemberCloseDate="2113-09-06T00:00:00.000" MemberStatus="1"
+				BirthDate="2013-09-06T00:00:00.000" FirstName="M" LastName="M"
+				MiddleName="M" NamePrefix="PF" NameSuffix="SF" AlternateId=""
+				Username="" Password="" PrimaryEmailAddress="L9072013802@mm.com"
+				PrimaryPhoneNumber="" PrimaryPostalCode="5656" LastActivityDate="2013-09-06T00:00:00.000"
+				IsEmployee="True" ChangedBy="MM" xmlns="">
+				<LEVISDETAILS EMAILADRESSMAILABLE="True"
+					ADDRESSLINEONE="A1" ADDRESSLINETWO="A2" ADDRESSLINETHREE="A3" CITY="Plano"
+					STATEORPROVINCE="TX" ZIPORPOSTALCODE="75024" COUNTRY="UK" PHONE="L9072013802"
+					MEMBERSOURCE="Levis.com" LANGUAGEPREFERENCE="English" FIRSTNAME="L9072013802"
+					LASTNAME="L9072013802" MIDDLENAME="L9072013802" TCCONSENT="True"
+					HYBRISID="" TCDATE="2013-09-06T00:00:00.000" ECOMM="True" />
+				<VirtualCard VcKey="0" LoyaltyIdNumber="L9072013802"
+					IpCode="0" DateIssued="2013-09-06T00:00:00.000" DateRegistered="2013-09-06T00:00:00.000"
+					Status="1" IsPrimary="True" CardType="1" />
+			</Member>
+		</AttributeSets>
+	</Parm>
+</AddMemberInParms>

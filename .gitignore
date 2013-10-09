@@ -1,0 +1,47 @@
+# generated folders and files #
+*.class
+build.xml
+
+.sonar/
+cobertura.ser
+cobertura/
+
+#Ignore merged original copies
+*.orig
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# IntelliJ files #
+.idea/
+*.iml
+*.eml
+.DS_Store
+
+# Merge Files #
+*.BASE
+*.LOCAL
+*.REMOTE
+
+RemoteSystemsTempFiles/
+.metadata
+.prefs
+.springBeans
+
+# Folders #
+temp/
+classes/
+eclipsebin/
+
+# Code review #
+.reviewboardrc
